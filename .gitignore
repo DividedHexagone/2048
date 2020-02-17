@@ -64,6 +64,10 @@ artifacts/
 # StyleCop
 StyleCopReport.xml
 
+#Allow some libraries
+!Additionals/*
+#!*.dll
+
 # Files built by Visual Studio
 *_i.c
 *_p.c
@@ -72,8 +76,8 @@ StyleCopReport.xml
 *.meta
 *.obj
 *.iobj
-*.pch
-*.pdb
+#*.pch
+#*.pdb
 *.ipdb
 *.pgc
 *.pgd
